@@ -1,0 +1,120 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  left: 0;
+  background: #444;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+a{
+text-decoration: none;
+}
+
+/* heading */
+ .mainheading {
+	padding: 80px 0px 50px;
+  background: #fff;
+  margin-top: 0;
+}
+ .mainheading h3 {
+	margin-top:0px;
+	color: #333;
+	font-size: 50px;
+}
+ .mainheading h4 {
+	color: #aaa;
+	font-size: 20px;
+}
+ .mainheading p {
+	margin: 0;
+	padding-top: 5px;
+	font-size: 15px;
+	color: #555;
+}
+
+
+
+/* Banner */
+
+.banner {
+  padding: 0;
+  margin: 0;
+  height: 620px;
+  padding: 10px;
+  z-index: 1;
+  border-bottom: 1px solid #333;
+  box-shadow: 1px 1px 40px #555;
+  overflow: hidden;
+}
+.banner .heading {
+  position: relative;
+  height: 400px;
+}
+.banner .heading h2 {
+  position: relative;
+  font-size: 50px;
+  top: 200px;
+  color: #111;
+  z-index: 10;
+  text-align: center;
+  font-style: italic;
+  text-shadow: 1px 1px 5px #444;
+}
+
+#b-5 {
+  background: rgba(100,200,213,0.9);
+}
+
+
+/* Row */
+.row-1 {
+  position: relative;
+  top: -400px;
+  left: 0;
+  height: 400px;
+  z-index: 2;
+}
+.row-2 {
+  position: relative;
+  top: -800px;
+  left: 0;
+  height: 400px;
+  z-index: 3;
+}
+.row-3 {
+  position: relative;
+  position: relative;
+  top: -1200px;
+  left: 0;
+  height: 400px;
+  z-index: 4;
+}
+.row-1 img {
+  position: relative;
+  display: none;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  /*box-shadow: 1px 1px 3px #111, 1px 1px 20px #444;*/
+}
+
+.row-2 img {
+  position: relative;
+  display: none;
+  width: 110px;
+  height: 110px;
+  border-radius: 50px;
+  /*box-shadow: 1px 1px 3px #111, 1px 1px 20px #444;*/
+}
+.row-3 img {
+  position: relative;
+  display: none;
+  width: 120px;
+  height: 120px;
+  border-radius: 50px;
+  /*box-shadow: 1px 1px 3px #111, 1px 1px 20px #444;*/
+}
